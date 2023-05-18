@@ -1,0 +1,54 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./images/imgurbg.png);
+    background-repeat: no-repeat;
+    background-color: #1B193E;
+    padding: 17px 7px;
+    color: white;
+    height: 20rem;
+}
+
+
+.newPost {
+    background-color: #1bb76e;
+    padding: 7px 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.navTitle {
+    display: flex;
+    align-items: self-start;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #1bb76e;
+    padding: 7px 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    /* margin-left: 20px; */
+}
+
+/* .searchBox {
+    background-color: hsla(0, 0%, 100%, .25);
+} */
+
+.searchBox input {
+    background-color: hsla(0, 0%, 100%, .25);
+}
+
+/* .navheader {
+    display: flex;
+    justify-content: space-between;
+} */

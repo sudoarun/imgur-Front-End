@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+
+  background-color: #2E3035;
+}
+
+.feedSection {
+  margin: -100px 160px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px;
+  margin-bottom: 85px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
